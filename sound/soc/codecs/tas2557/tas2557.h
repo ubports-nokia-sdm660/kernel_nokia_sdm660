@@ -290,8 +290,8 @@
 /* B100P0R31 - TAS2557_CLK_MISC_REG */
 #define TAS2557_DSP_CLK_FROM_PLL		(0x1 << 5)
 
-//#define TAS2557_FW_NAME     "tas2557_uCDSP.bin"
-//#define TAS2557_FW_NAME     "TAS2557MSSMono.bin"
+// #define TAS2557_FW_NAME     "tas2557_uCDSP.bin"
+#define TAS2557_FW_NAME     "TAS2557MSSMono.bin"
 extern char *tas2557_fw_bin; //use tas2557_fw_bin to replace TAS2557_FW_NAME
 #define TAS2557_PG1P0_FW_NAME     "tas2557_pg1p0_uCDSP.bin"
 
